@@ -1,0 +1,269 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About OPCExample"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_ODS,IDC_STATIC,9,12,20,20
+    LTEXT           "OPCExample Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright © 2002 OMRON Corporation",IDC_STATIC,40,25,
+                    119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_OPCEXAMPLE_DIALOG DIALOGEX 0, 0, 305, 204
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "OPCExample"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "EXIT",IDEXIT,245,183,50,14
+    GROUPBOX        "Properties",IDC_PROPERTIES_TITLE,7,0,287,62
+    EDITTEXT        IDC_SERVER_NAME_TEXT,90,10,194,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Server Name :",IDC_SERVER_NAME,17,13,54,10
+    EDITTEXT        IDC_PROJECT_NAME_TEXT,90,35,172,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Project Name :",IDC_PROJECT_NAME,17,35,56,13
+    GROUPBOX        "Data",IDC_DATA,7,66,287,114
+    EDITTEXT        IDC_READ_ASYNC_TEXT,74,108,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GETDATA_TEXT,74,158,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WRITE_SYNC_TEXT,219,133,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WRITE_ASYNC_TEXT,219,108,62,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_READ_SYNC_TEXT,74,133,62,13,ES_AUTOHSCROLL
+    LTEXT           "Item : ",IDC_ITEM,162,84,28,15
+    LTEXT           "Group :",IDC_GROUP,16,85,24,10
+    PUSHBUTTON      "Read Async",IDC_READ_ASYNC,16,106,46,15
+    PUSHBUTTON      "Write Async",IDC_WRITE_ASYNC,162,106,46,15
+    PUSHBUTTON      "Write Sync",IDC_WRITE_SYNC,162,132,46,15
+    PUSHBUTTON      "Stop Data",IDC_STOPDATA,162,157,46,15
+    PUSHBUTTON      "Read Sync",IDC_READ_SYNC,16,132,46,15
+    PUSHBUTTON      "GetData",IDC_GETDATA,16,157,46,15
+    COMBOBOX        IDC_GROUP_COMBO,49,82,87,84,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ITEM_COMBO,194,81,87,80,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BUTTON_PROJECT,265,35,20,14
+    CONTROL         "",IDC_CXOPCCLIENTCOMMUNICATIONSCTRL1,
+                    "{883740FD-C519-11D3-92DF-005004B0A636}",WS_TABSTOP,0,0,
+                    43,39
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "OMRON Electronics Ltd\0"
+            VALUE "FileDescription", "OPCExample MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "OPCExample\0"
+            VALUE "LegalCopyright", "Copyright © 2002 OMRON Corporation\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "OPCExample.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "OPCExample Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_OPCEXAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OPCEXAMPLE_DIALOG DLGINIT
+BEGIN
+    IDC_CXOPCCLIENTCOMMUNICATIONSCTRL1, 0x376, 142, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x06a4, 0x0000, 0x06a4, 0x0000, 0x0008, 
+0x0010, 0x0000, 0x0028, 0x004c, 0x006f, 0x0063, 0x0061, 0x006c, 0x0029, 
+0x0000, 0x0008, 0x002e, 0x0000, 0x004f, 0x004d, 0x0052, 0x004f, 0x004e, 
+0x002e, 0x004f, 0x0070, 0x0065, 0x006e, 0x0044, 0x0061, 0x0074, 0x0061, 
+0x0053, 0x0065, 0x0072, 0x0076, 0x0065, 0x0072, 0x002e, 0x0031, 0x0000, 
+0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0022, 0x0000, 0x002e, 0x005c, 
+0x006f, 0x0070, 0x0063, 0x0045, 0x0078, 0x0061, 0x006d, 0x0070, 0x006c, 
+0x0065, 0x002e, 0x006f, 0x0070, 0x0063, 0x0000, 0x000b, 0xffff, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About OPCExample..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\OPCExample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_ODS                 ICON    DISCARDABLE     "res\\OPCExample.ico"
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\OPCExample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

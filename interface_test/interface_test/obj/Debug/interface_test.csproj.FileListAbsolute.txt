@@ -1,0 +1,40 @@
+c:\users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\interface_test.exe.config
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\interface_test.exe
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\interface_test.pdb
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\MainWindow.g.cs
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\App.g.cs
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test_MarkupCompile.cache
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test_MarkupCompile.lref
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\MainWindow.baml
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.g.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.Properties.Resources.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.csproj.GenerateResource.Cache
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.exe
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.pdb
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\Simple Styles.baml
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\App.baml
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.flap_1.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.flap_2.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.termometr_1.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.termometr_2.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.termometr_3.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.termometr_4.resources
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\Interop.MSWinsockLib.dll
+C:\Users\1\documents\visual studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.csproj.ResolveComReference.cache
+C:\Users\1\Documents\Visual Studio 2015\Projects\interface_test\interface_test\bin\Debug\mc.Omron.v1.00.dll
+C:\Users\1\Documents\Visual Studio 2015\Projects\interface_test\interface_test\bin\Debug\mc.Omron.v1.00.pdb
+C:\Users\1\Documents\Visual Studio 2015\Projects\interface_test\interface_test\obj\Debug\interface_test.Connect.resources
+I:\interface_test\interface_test\bin\Debug\interface_test.exe.config
+I:\interface_test\interface_test\obj\Debug\interface_test.csproj.ResolveComReference.cache
+I:\interface_test\interface_test\obj\Debug\interface_test.exe
+I:\interface_test\interface_test\obj\Debug\interface_test.pdb

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<opcSrv ComputerName="(Local)" OPCServerName="OpenDataServer.ODOPCServer">
+  <Group Name="group1" UpdateRate="1000" Active="True">
+    <Item Name="point1" Type="18" Active="True" />
+    <Item Name="long1" Type="3" Active="True" />
+    <Item Name="point4" Type="18" Active="True" />
+    <Item Name="point5" Type="18" Active="True" />
+    <Item Name="point2" Type="18" Active="True" />
+    <Item Name="point3" Type="18" Active="True" />
+    <Item Name="point0" Type="18" Active="True" />
+  </Group>
+  <Group Name="group2" UpdateRate="1000" Active="True">
+    <Item Name="firstflt" Type="4" Active="True" />
+    <Item Name="fltarray" Type="8196" Active="True" />
+    <Item Name="point3" Type="18" Active="True" />
+    <Item Name="point0" Type="18" Active="True" />
+  </Group>
+  <Group Name="Group3" UpdateRate="1000" Active="True">
+    <Item Name="point5" Type="18" Active="True" />
+  </Group>
+</opcSrv>
